@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Randriamananjara Dollarien Christophe - Exercice GitHub Pages</title>
+  
+  <!-- CDN Tailwind CSS & FontAwesome -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              500: '#3b82f6',
+              600: '#2563eb',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col justify-between font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- Header / Navbar -->
+  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-600 to-indigo-500 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-brand-500/20">
+          RC
+        </div>
+        <div>
+          <h1 class="font-bold text-lg leading-none">Randriamananjara D. Christophe</h1>
+          <p class="text-xs text-slate-400 mt-1">Étudiant ENSET Diego</p>
+        </div>
+      </div>
+      <a href="mailto:ww.cristophe@gmail.com" class="text-xs sm:text-sm bg-brand-600 hover:bg-brand-500 text-white px-4 py-2 rounded-lg font-medium transition-all shadow-md hover:shadow-brand-500/20 flex items-center gap-2">
+        <i class="fa-regular font-bold fa-envelope"></i> Contact
+      </a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-6 py-12 flex-grow flex flex-col justify-center">
+
+    <!-- IA Banner / Badge Disclaimer -->
+    <div class="mb-10 p-4 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-amber-300 flex items-start sm:items-center gap-4 shadow-xl">
+      <div class="p-2 rounded-xl bg-amber-500/20 text-amber-400 shrink-0">
+        <i class="fa-solid fa-robot text-xl"></i>
+      </div>
+      <div class="text-sm">
+        <span class="font-bold uppercase tracking-wider text-xs block text-amber-400">Note de projet</span>
+        Ce code a été entièrement **généré par une Intelligence Artificielle (IA)** dans le cadre d'un **exercice de déploiement d'un projet sur GitHub Pages**.
+      </div>
+    </div>
+
+    <!-- Profile Section -->
+    <section class="grid md:grid-cols-3 gap-8 items-center bg-slate-800/40 border border-slate-800 p-8 rounded-3xl backdrop-blur-sm">
+      <div class="md:col-span-2 space-y-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-brand-500/10 text-brand-400 border border-brand-500/20">
+          <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+          Projet d'Étude & Déploiement
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Randriamananjara <br><span class="text-brand-500">Dollarien Christophe</span>
+        </h2>
+        <p class="text-slate-300 leading-relaxed">
+          Étudiant passionné en **Informatique** à l'**ENSET Diego** (École Nationale Supérieure d'Enseignement Technique). Ce site sert de démonstration pratique pour apprendre à configurer, héberger et déployer des applications web via **GitHub Pages**.
+        </p>
+
+        <!-- Profile Details Grid -->
+        <div class="pt-4 grid sm:grid-cols-2 gap-3 text-sm">
+          <div class="flex items-center gap-3 bg-slate-900/60 p-3 rounded-xl border border-slate-800">
+            <i class="fa-solid fa-graduation-cap text-brand-400 text-lg"></i>
+            <div>
+              <div class="text-xs text-slate-400">Établissement</div>
+              <div class="font-medium text-slate-200">ENSET Diego</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 bg-slate-900/60 p-3 rounded-xl border border-slate-800">
+            <i class="fa-solid fa-code text-brand-400 text-lg"></i>
+            <div>
+              <div class="text-xs text-slate-400">Domaine</div>
+              <div class="font-medium text-slate-200">Informatique</div>
+            </div>
+          </div>
+          <div class="flex items-center gap-3 bg-slate-900/60 p-3 rounded-xl border border-slate-800 sm:col-span-2">
+            <i class="fa-solid fa-envelope text-brand-400 text-lg"></i>
+            <div>
+              <div class="text-xs text-slate-400">Adresse e-mail</div>
+              <a href="mailto:ww.cristophe@gmail.com" class="font-medium text-brand-400 hover:underline">ww.cristophe@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card Graphic -->
+      <div class="flex justify-center">
+        <div class="relative w-full max-w-xs p-6 rounded-2xl bg-gradient-to-b from-slate-800 to-slate-900 border border-slate-700 shadow-2xl text-center space-y-4">
+          <div class="w-20 h-20 mx-auto rounded-2xl bg-brand-500/10 border border-brand-500/30 flex items-center justify-center text-brand-400 text-3xl shadow-inner">
+            <i class="fa-brands fa-github"></i>
+          </div>
+          <div>
+            <h3 class="font-semibold text-white">Déploiement GitHub</h3>
+            <p class="text-xs text-slate-400 mt-1">Exercice pratique d'hébergement web statique</p>
+          </div>
+          <div class="pt-2 border-t border-slate-800 text-xs text-slate-500 flex justify-between items-center">
+            <span>Statut</span>
+            <span class="text-emerald-400 font-medium flex items-center gap-1">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> En ligne
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-6 text-center text-xs text-slate-500">
+    <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p>© Exercice de déploiement GitHub - Randriamananjara Dollarien Christophe</p>
+      <p class="flex items-center gap-1">
+        <span>Généré par IA</span> • <span>ENSET Diego</span>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
